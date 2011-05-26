@@ -2,6 +2,8 @@
 
 class ClassTrigger
 {
+    const VERSION = 0.001;
+
     static protected $triggers = array( );
 
     static protected function get_package ( )
